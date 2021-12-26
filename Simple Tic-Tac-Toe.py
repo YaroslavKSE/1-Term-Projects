@@ -32,16 +32,6 @@ def game_process():
         print(winner, 'won!')
     if winner is None:
         print('Draw!')
-    # if winner == 'X' or winner == 'O' or winner is None:
-    #     flag = True
-    #     while flag:
-    #         flag = input('Do you wanna play one more game? [yes/no]:')
-    #         for element in pole:
-    #             pole = ' '
-    #         game_process()
-    #         if flag == 'no':
-    #             flag = False
-    #     print('Завершення роботи програми')
 
 
 def turn(player):
